@@ -1,0 +1,65 @@
+[
+  {
+      "id": "1",
+      "style": "Braids",
+      "model": "Braided puff",
+      "preis": 120,
+      "avatar": "https://i.pinimg.com/474x/cc/c0/db/ccc0db775184e1d8218fc1e007d0db4e.jpg"
+  },
+  {
+      "id": "2",
+      "style": "Braids",
+      "model": "Open braids",
+      "preis": 150,
+      "avatar": "https://i.pinimg.com/474x/b0/8b/04/b08b042f3cc8f14bb3b95c3d7fae4799.jpg"
+  },
+  {
+      "id": "3",
+      "style": "Conrows",
+      "model": "Simple Conrows",
+      "preis": 40,
+      "avatar": "https://i.pinimg.com/474x/63/e1/e2/63e1e2e11d26dfe160768c842ffd83a0.jpg"
+  },
+  {
+      "id": "4",
+      "style": "Conrows",
+      "model": "Simple Conrows",
+      "preis": 40,
+      "avatar": "https://i.pinimg.com/474x/6f/7c/5c/6f7c5c1cfa8bc866ad405f30ac572671.jpg"
+  },
+  {
+      "id": "5",
+      "style": "Verlängerung",
+      "model": "Kurz",
+      "preis": 70,
+      "avatar": "https://i.pinimg.com/474x/4f/a8/f5/4fa8f508cd2905447cced2f6dda0f1aa.jpg"
+  },
+  {
+      "id": "6",
+      "style": "Verlängerung",
+      "model": "Lang",
+      "preis": 80,
+      "avatar": "https://i.pinimg.com/474x/52/20/a0/5220a089bd33f5a6e601ee3b81f8e08f.jpg"
+  },
+  {
+      "id": "7",
+      "style": "Afro",
+      "model": "Medinadugger",
+      "preis": 80,
+      "avatar": "https://i.pinimg.com/474x/15/de/f5/15def5d803f27867c6b4e7f6a865ed82.jpg"
+  },
+  {
+      "id": "8",
+      "style": "Afro",
+      "model": "Zett",
+      "preis": 80,
+      "avatar": "https://i.pinimg.com/474x/57/8d/e8/578de8729e8810e2e31347fc0dc85db2.jpg"
+  },
+  {
+      "id": "9",
+      "style": "Afro",
+      "model": "Nappy",
+      "preis": 80,
+      "avatar": "https://i.pinimg.com/474x/a5/e7/f0/a5e7f01c504d5988bbdf81232f7ff5cc.jpg"
+  }
+]

@@ -1,0 +1,31 @@
+<div style="text-align:center; margin-top: 10px">
+
+
+
+  <div class="form-container" fxShow fxHide.xs>
+    <mat-form-field class="search-form" appearance="standard">
+      <mat-label>search</mat-label>
+      <input matInput placeholder="search a product" type="text">
+    </mat-form-field>
+    <button button="submit" mat-raised-button color="primary">Search</button>
+  </div>
+
+  <mat-carousel style="margin: 10px auto 10px auto;" timings="200ms ease-in" [autoplay]="true" interval="3000"
+    color="white" slides="4" [hideIndicators]="false" [hideArrows]="false" orientation="ltr">
+    <mat-carousel-slide *ngFor="let slide of slides; let i = index" [image]="slide.image">
+    </mat-carousel-slide>
+  </mat-carousel>
+
+  <div class="container container1" fxLayout="row wrap" fxLayoutAlign="space-around">
+    <div class="innen-div" *ngFor=" let frisur of frisure">
+      <div><img class="image-div" src='{{frisur.avatar}}'></div>
+      <p class="spacer mat-body-1"><b>{{ frisur.style }}</b></p>
+      <p class="spacer mat-body-1">{{ frisur.model }}</p>
+      <a mat-stroked-button color="primary" [routerLink]="['/frisur-details', frisur.id]">Details</a>
+    </div>
+  </div>
+
+  <!-- <mat-paginator #paginator [length]="100" [pageSize]="5" [pageSizeOptions]="[5, 10]" [showFirstLastButtons]="true">
+  </mat-paginator> -->
+
+</div>

@@ -1,0 +1,36 @@
+.list-item:hover {
+  background-color: rgba(83, 83, 83, 0.178);
+  color: black;
+  cursor: pointer;
+}
+.list-width {
+  width: 200px;
+}
+
+.example-spacer{
+  flex: 1 1 auto;
+}
+
+::ng-deep .mat-drawer-container {
+color: black;
+background-color: white;
+}
+.close-icon{
+  margin: 18px 0px 0px 160px;
+}
+::ng-deep .mat-sidenav {
+  margin-top: 65px;
+  background-color: white;
+}
+::ng-deep .mat-list-base .mat-list-item {
+  color: black;
+}
+.sticky {
+  // margin-bottom: 2rem;
+  position: fixed;
+  z-index: 2;
+}
+::ng-deep .mat-sidenav-content{
+   margin-top: 3rem;
+}
+

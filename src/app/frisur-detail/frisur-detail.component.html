@@ -1,0 +1,8 @@
+<div class="container container1" *ngIf="frisur">
+  <div class="innen-div">
+    <div><img class="image-div" [src]='frisur.avatar'></div>
+    <p class="spacer mat-body-1"><b>{{ frisur.style }}</b></p>
+    <p class="spacer mat-body-1">{{ frisur.model }}</p>
+    <a mat-stroked-button color="primary" routerLink="/">Go Back</a>
+  </div>
+</div>
