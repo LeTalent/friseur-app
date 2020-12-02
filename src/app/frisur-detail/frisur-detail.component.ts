@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { FrisurService } from '../frisur.service';
+import { FrisurService } from '../services/frisur.service';
 import { ActivatedRoute } from '@angular/router';
-import { Frisur } from '../frisur.model';
+import { Frisur } from '../models/frisur.model';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./frisur-detail.component.scss']
 })
 export class FrisurDetailComponent implements OnInit, OnDestroy {
-  frisur: any;
+  frisur: Frisur;
   subs: Subscription;
 
 
@@ -32,25 +32,7 @@ export class FrisurDetailComponent implements OnInit, OnDestroy {
         }
       }
     );
-    // const param = this.route.snapshot.paramMap.get('id');
-    // if (param) {
-    //   // const id = +param;
-    //   this.getSingleFrisur(param);
-    // }
   }
-
-  // getSingleFrisur(id: string) {
-  //   this.subs = this.service.getFrisur(id).subscribe(
-  //     frisurData =>
-  //     this.frisur = {
-  //       id: frisurData.id,
-  //       style: frisurData.style,
-  //       model: frisurData.model,
-  //       preis: frisurData.preis,
-  //       avatar: frisurData.avatar
-  //     }
-  //     );
-  // }
 
 
   ngOnDestroy(){

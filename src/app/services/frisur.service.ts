@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Frisur } from './frisur.model';
+import { Frisur } from '../models/frisur.model';
 import { HttpClient } from "@angular/common/http";
-import { Observable, Subscription } from 'rxjs';
-import { filter, map, tap } from 'rxjs/operators';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 
 @Injectable({
@@ -21,8 +21,7 @@ export class FrisurService {
 
    getFrisur(id: string){
       return this.getFrisurList()
-      .pipe(
-        map((frisure: Frisur[]) => frisure.find( f => f.id === id) ));
+      .pipe(map( (frisure: Frisur[]) => frisure.find( f => f.id === id) ));
    }
 
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, AfterViewInit, OnDestroy } from '@angular/core';
-import { Frisur } from '../frisur.model';
-import { FrisurService } from '../frisur.service';
+import { Frisur } from '../models/frisur.model';
+import { FrisurService } from '../services/frisur.service';
 import { Subscription } from 'rxjs';
 
 @Component({

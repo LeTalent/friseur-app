@@ -15,6 +15,12 @@ import { MatMenuModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatSelectModule} from '@angular/material/select';
 import {MatListModule} from '@angular/material/list';
+import {DxSchedulerModule, DxTemplateModule} from 'devextreme-angular';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+
+
+
 
 @NgModule({
   exports: [
@@ -33,6 +39,11 @@ import {MatListModule} from '@angular/material/list';
     FlexLayoutModule,
     MatSelectModule,
     MatListModule,
+    DxSchedulerModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    DxTemplateModule
+
   ],
   declarations: [],
   imports: [
