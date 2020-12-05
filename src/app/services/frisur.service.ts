@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Frisur } from '../models/frisur.model';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from 'rxjs';
-import { map, filter } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 
 
 @Injectable({

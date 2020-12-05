@@ -24,7 +24,7 @@ export class TerminComponent implements OnInit {
 
   onAppointmentAdding (e: Termin) {
     console.log(e);
-    console.log(this.appointmentsData.push(e));
+    this.appointmentsData.push(e);
 }
 
 }
