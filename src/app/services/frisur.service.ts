@@ -63,4 +63,14 @@ export class FrisurService {
    getExtantionsSecondSlide(): Observable<Frisur[]> {
     return this.http.get<Frisur[]>('./assets/extantions/extantions-second-slide.json');
    }
+
+   getDreadsFirstSlide(): Observable<Frisur[]> {
+    return this.http.get<Frisur[]>('./assets/dreads/dreads-first-slide.json');
+   }
+   getDreadsSecondSlide(): Observable<Frisur[]> {
+    return this.http.get<Frisur[]>('./assets/dreads/dreads-second-slide.json');
+   }
+   getDreadsThirdSlide(): Observable<Frisur[]> {
+    return this.http.get<Frisur[]>('./assets/dreads/dreads-third-slide.json');
+   }
 }

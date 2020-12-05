@@ -22,6 +22,10 @@ export class FrisurListComponent implements OnInit, OnDestroy {
   conrowsSlideThree$: Observable<Frisur[]>;
   conrowsSlideFour$: Observable<Frisur[]>;
 
+  dreadsSlideOne$: Observable<Frisur[]>;
+  dreadsSlideTwo$: Observable<Frisur[]>;
+  dreadsSlideThree$: Observable<Frisur[]>;
+
   extantionsSlideOne$: Observable<Frisur[]>;
   extantionsSlideTwo$: Observable<Frisur[]>;
 
@@ -52,6 +56,10 @@ export class FrisurListComponent implements OnInit, OnDestroy {
       this.conrowsSlideTwo$ = this.frisurServ.getConrowsSecondSlide();
       this.conrowsSlideThree$ = this.frisurServ.getConrowsThirdSlide();
       this.conrowsSlideFour$ = this.frisurServ.getConrowsFourthSlide();
+
+      this.dreadsSlideOne$ = this.frisurServ.getDreadsFirstSlide();
+      this.dreadsSlideTwo$ = this.frisurServ.getDreadsSecondSlide();
+      this.dreadsSlideThree$ = this.frisurServ.getDreadsThirdSlide();
 
       this.extantionsSlideOne$ = this.frisurServ.getExtantionsFirstSlide();
       this.extantionsSlideTwo$ = this.frisurServ.getExtantionsSecondSlide();

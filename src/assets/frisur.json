@@ -250,6 +250,69 @@
       "style": "Simple Variante",
       "preis": 80,
       "avatar": "./assets/images/frisure/Haare_Verlaengerung_6.jpeg"
+    },
+    {
+      "id": "34",
+      "model": "Dreads",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Dreads_1.jpeg"
+    },
+    {
+      "id": "35",
+      "model": "Dreads",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Dreads_2.jpeg"
+    },
+    {
+      "id": "36",
+      "model": "Dreads",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Dreads_3.jpeg"
+    },
+    {
+      "id": "37",
+      "model": "Dreads",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Dreads_4.jpeg"
+    },
+    {
+      "id": "38",
+      "model": "Dreads",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Dreads_5.jpeg"
+    },
+    {
+      "id": "39",
+      "model": "Dreads",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Dreads_6.jpeg"
+    },
+    {
+      "id": "40",
+      "model": "Dreads",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Dreads_7.jpeg"
+    },
+    {
+      "id": "41",
+      "model": "Dreads",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Dreads_8.jpeg"
+    },
+    {
+      "id": "42",
+      "model": "Dreads",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Dreads_9.jpeg"
     }
   ]
 

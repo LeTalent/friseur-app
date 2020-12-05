@@ -1,0 +1,23 @@
+[
+  {
+    "id": "34",
+    "model": "Dreads",
+    "style": "Simple Variante",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Dreads_1.jpeg"
+  },
+  {
+    "id": "35",
+    "model": "Dreads",
+    "style": "Simple Variante",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Dreads_2.jpeg"
+  },
+  {
+    "id": "36",
+    "model": "Dreads",
+    "style": "Simple Variante",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Dreads_3.jpeg"
+  }
+]
