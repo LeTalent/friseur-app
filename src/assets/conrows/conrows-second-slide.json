@@ -1,0 +1,24 @@
+
+  [
+    {
+      "id": "20",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_4.jpeg"
+    },
+    {
+      "id": "21",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_5.jpeg"
+    },
+    {
+      "id": "22",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_6.jpeg"
+    }
+]

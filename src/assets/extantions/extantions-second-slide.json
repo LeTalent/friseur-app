@@ -1,0 +1,24 @@
+
+  [
+    {
+      "id": "31",
+      "model": "Haare Verlaengerung",
+      "style": "Dreads",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_4.jpeg"
+    },
+    {
+      "id": "32",
+      "model": "Haare Verlaengerung",
+      "style": "Dreads",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_5.jpeg"
+    },
+    {
+      "id": "33",
+      "model": "Haare Verlaengerung",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_6.jpeg"
+    }
+  ]

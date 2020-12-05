@@ -1,0 +1,24 @@
+
+  [
+    {
+      "id": "28",
+      "model": "Haare Verlaengerung",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_verlaengerung_1.jpeg"
+    },
+    {
+      "id": "29",
+      "model": "Haare Verlaengerung",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_2.jpeg"
+    },
+    {
+      "id": "30",
+      "model": "Haare Verlaengerung",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_3.jpeg"
+    }
+  ]

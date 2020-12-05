@@ -1,65 +1,255 @@
-[
-  {
+ [
+    {
       "id": "1",
-      "style": "Braids",
-      "model": "Braided puff",
+      "model": "Braids",
+      "style": "Simple Braids",
       "preis": 120,
-      "avatar": "https://i.pinimg.com/474x/cc/c0/db/ccc0db775184e1d8218fc1e007d0db4e.jpg"
-  },
-  {
+      "avatar": "./assets/images/frisure/Braids_1.jpeg"
+    },
+    {
       "id": "2",
-      "style": "Braids",
-      "model": "Open braids",
+      "model": "Braids",
+      "style": "Simple Braids",
       "preis": 150,
-      "avatar": "https://i.pinimg.com/474x/b0/8b/04/b08b042f3cc8f14bb3b95c3d7fae4799.jpg"
-  },
-  {
+      "avatar": "./assets/images/frisure/Braids_2.jpeg"
+    },
+    {
       "id": "3",
-      "style": "Conrows",
-      "model": "Simple Conrows",
+      "model": "Braids",
+      "style": "Simple Braids",
       "preis": 40,
-      "avatar": "https://i.pinimg.com/474x/63/e1/e2/63e1e2e11d26dfe160768c842ffd83a0.jpg"
-  },
-  {
+      "avatar": "./assets/images/frisure/Braids_3.jpeg"
+    },
+    {
       "id": "4",
-      "style": "Conrows",
-      "model": "Simple Conrows",
+      "model": "Braids",
+      "style": "Simple Braids",
       "preis": 40,
-      "avatar": "https://i.pinimg.com/474x/6f/7c/5c/6f7c5c1cfa8bc866ad405f30ac572671.jpg"
-  },
-  {
+      "avatar": "./assets/images/frisure/Braids_4.jpeg"
+    },
+    {
       "id": "5",
-      "style": "Verlängerung",
-      "model": "Kurz",
+      "model": "Braids",
+      "style": "Simple Braids",
       "preis": 70,
-      "avatar": "https://i.pinimg.com/474x/4f/a8/f5/4fa8f508cd2905447cced2f6dda0f1aa.jpg"
-  },
-  {
+      "avatar": "./assets/images/frisure/Braids_5.jpeg"
+    },
+    {
       "id": "6",
-      "style": "Verlängerung",
-      "model": "Lang",
+      "model": "Braids",
+      "style": "Simple Braids",
       "preis": 80,
-      "avatar": "https://i.pinimg.com/474x/52/20/a0/5220a089bd33f5a6e601ee3b81f8e08f.jpg"
-  },
-  {
+      "avatar": "./assets/images/frisure/Braids_6.jpeg"
+    },
+    {
       "id": "7",
-      "style": "Afro",
-      "model": "Medinadugger",
+      "model": "Braids",
+      "style": "Simple Braids",
       "preis": 80,
-      "avatar": "https://i.pinimg.com/474x/15/de/f5/15def5d803f27867c6b4e7f6a865ed82.jpg"
-  },
-  {
+      "avatar": "./assets/images/frisure/Braids_7.jpeg"
+    },
+    {
       "id": "8",
-      "style": "Afro",
-      "model": "Zett",
+      "model": "Braids",
+      "style": "Simple Braids",
       "preis": 80,
-      "avatar": "https://i.pinimg.com/474x/57/8d/e8/578de8729e8810e2e31347fc0dc85db2.jpg"
-  },
-  {
+      "avatar": "./assets/images/frisure/Braids_8.jpeg"
+    },
+    {
       "id": "9",
-      "style": "Afro",
-      "model": "Nappy",
+      "model": "Braids",
+      "style": "Simple Braids",
       "preis": 80,
-      "avatar": "https://i.pinimg.com/474x/a5/e7/f0/a5e7f01c504d5988bbdf81232f7ff5cc.jpg"
-  }
-]
+      "avatar": "./assets/images/frisure/Braids_9.jpeg"
+    },
+    {
+      "id": "10",
+      "model": "Braids",
+      "style": "Lange Braids",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Braids_10_Lange.jpeg"
+    },
+    {
+      "id": "11",
+      "model": "Braids",
+      "style": "Lange Braids",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Braids_11_Lange.jpeg"
+    },
+    {
+      "id": "12",
+      "model": "Braids",
+      "style": "Open Braids",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Braids_12_Open.jpeg"
+    },
+    {
+      "id": "13",
+      "model": "Braids",
+      "style": "Dicke Braids",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Braids_13_Dick.jpeg"
+    },
+    {
+      "id": "14",
+      "model": "Braids",
+      "style": "Simple Braids",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Braids_14.jpeg"
+    },
+    {
+      "id": "15",
+      "model": "Braids",
+      "style": "Simple Braids",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Braids_15.jpeg"
+    },
+    {
+      "id": "16",
+      "model": "Braids",
+      "style": "Simple Braids",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Braids_16.jpeg"
+    },
+    {
+      "id": "16-1",
+      "model": "Braids",
+      "style": "Rot Farbig",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Braids_17.jpeg"
+    },
+    {
+      "id": "16-2",
+      "model": "Braids",
+      "style": "Simple Braids",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Braids_18.jpeg"
+    },
+    {
+      "id": "17",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_1.jpeg"
+    },
+    {
+      "id": "18",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_2.jpeg"
+    },
+    {
+      "id": "19",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_3.jpeg"
+    },
+    {
+      "id": "20",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_4.jpeg"
+    },
+    {
+      "id": "21",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_5.jpeg"
+    },
+    {
+      "id": "22",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_6.jpeg"
+    },
+    {
+      "id": "23",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_7.jpeg"
+    },
+    {
+      "id": "24",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_8.jpeg"
+    },
+    {
+      "id": "25",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_9.jpeg"
+    },
+    {
+      "id": "26",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_10.jpeg"
+    },
+    {
+      "id": "27",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_11.jpeg"
+    },
+    {
+      "id": "27-1",
+      "model": "Conrows",
+      "style": "Simple Conrows",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Conrows_12.jpeg"
+    },
+    {
+      "id": "28",
+      "model": "Haare Verlaengerung",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_verlaengerung_1.jpeg"
+    },
+    {
+      "id": "29",
+      "model": "Haare Verlaengerung",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_2.jpeg"
+    },
+    {
+      "id": "30",
+      "model": "Haare Verlaengerung",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_3.jpeg"
+    },
+    {
+      "id": "31",
+      "model": "Haare Verlaengerung",
+      "style": "Dreads",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_4.jpeg"
+    },
+    {
+      "id": "32",
+      "model": "Haare Verlaengerung",
+      "style": "Dreads",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_5.jpeg"
+    },
+    {
+      "id": "33",
+      "model": "Haare Verlaengerung",
+      "style": "Simple Variante",
+      "preis": 80,
+      "avatar": "./assets/images/frisure/Haare_Verlaengerung_6.jpeg"
+    }
+  ]
+

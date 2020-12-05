@@ -1,0 +1,23 @@
+[
+  {
+    "id": "13",
+    "model": "Braids",
+    "style": "Dicke Braids",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_13_Dick.jpeg"
+  },
+  {
+    "id": "14",
+    "model": "Braids",
+    "style": "Simple Braids",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_14.jpeg"
+  },
+  {
+    "id": "15",
+    "model": "Braids",
+    "style": "Simple Braids",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_15.jpeg"
+  }
+]

@@ -1,33 +1,63 @@
-import { Component, OnInit, ViewChild, AfterViewInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Frisur } from '../models/frisur.model';
 import { FrisurService } from '../services/frisur.service';
-import { Subscription } from 'rxjs';
+import { Subscription, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-frisur-list',
   templateUrl: './frisur-list.component.html',
   styleUrls: ['./frisur-list.component.scss']
 })
-export class FrisurListComponent implements OnInit, OnDestroy{
+export class FrisurListComponent implements OnInit, OnDestroy {
 
-  subs: Subscription;
+  braidsSlideOne$: Observable<Frisur[]>;
+  braidsSlideTwo$: Observable<Frisur[]>;
+  braidsSlideThree$: Observable<Frisur[]>;
+  braidsSlideFour$: Observable<Frisur[]>;
+  braidsSlideFive$: Observable<Frisur[]>;
+  braidsSlideSix$: Observable<Frisur[]>;
+
+  conrowsSlideOne$: Observable<Frisur[]>;
+  conrowsSlideTwo$: Observable<Frisur[]>;
+  conrowsSlideThree$: Observable<Frisur[]>;
+  conrowsSlideFour$: Observable<Frisur[]>;
+
+  extantionsSlideOne$: Observable<Frisur[]>;
+  extantionsSlideTwo$: Observable<Frisur[]>;
+
   frisure: Frisur[] = [];
-  slides = [{'image': '../../assets/images/salon-bild.jpeg'},
-            {'image': '../../assets/images/salon-bild2.jpeg'},
-            {'image': '../../assets/images/salon-bild3.jpeg'},
-            {'image': '../../assets/images/salon-bild.jpeg'}
-          ];
+  subs: Subscription;
+  slides = [
+  { 'image': './assets/images/salon-bild.jpg' },
+  { 'image': './assets/images/salon-bild2.jpg' },
+  { 'image': './assets/images/salon-bild3.jpg' },
+  ];
 
-  constructor( private frisurServ: FrisurService ) { }
+  constructor(private frisurServ: FrisurService) { }
 
   ngOnInit() {
     this.subs = this.frisurServ.getFrisurList()
-    .subscribe(
-      res => this.frisure = res
+      .subscribe(
+        res => this.frisure = res
       );
+
+      this.braidsSlideOne$ = this.frisurServ.getBraidsFirstSlide();
+      this.braidsSlideTwo$ = this.frisurServ.getBraidsSecondSlide();
+      this.braidsSlideThree$ = this.frisurServ.getBraidsThirdSlide();
+      this.braidsSlideFour$ = this.frisurServ.getBraidsFourthSlide();
+      this.braidsSlideFive$ = this.frisurServ.getBraidsFifthSlide();
+      this.braidsSlideSix$ = this.frisurServ.getBraidsSixthSlide();
+
+      this.conrowsSlideOne$ = this.frisurServ.getConrowsFirstSlide();
+      this.conrowsSlideTwo$ = this.frisurServ.getConrowsSecondSlide();
+      this.conrowsSlideThree$ = this.frisurServ.getConrowsThirdSlide();
+      this.conrowsSlideFour$ = this.frisurServ.getConrowsFourthSlide();
+
+      this.extantionsSlideOne$ = this.frisurServ.getExtantionsFirstSlide();
+      this.extantionsSlideTwo$ = this.frisurServ.getExtantionsSecondSlide();
   }
 
- ngOnDestroy(){
-   this.subs.unsubscribe();
- }
+  ngOnDestroy(){
+    this.subs.unsubscribe();
+  }
 }

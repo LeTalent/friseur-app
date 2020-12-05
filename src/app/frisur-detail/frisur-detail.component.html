@@ -1,9 +1,35 @@
+
 <div class="container container1" *ngIf="frisur">
-  <div class="innen-div">
-    <div><img class="image-div" [src]='frisur.avatar'></div>
-    <p class="spacer mat-body-1"><b>{{ frisur.style }}</b></p>
-    <p class="spacer mat-body-1">{{ frisur.model }}</p>
-    <a mat-stroked-button color="primary" routerLink="/">Go Back</a>
-    <a mat-stroked-button color="warn" routerLink="/termin">Buch Termin</a>
+  <div class="card">
+    <div class="card-header">Beschreibung</div>
+    <div class="card-body">
+        <div class="row">
+            <!-- <div class="col"> -->
+                <img [src]="frisur.avatar" class="col col-md-12 col-lg-6 card-img-top rounded image-card imf-fluid" alt="Frisur Bild">
+            <!-- </div> -->
+            <div class="col col-md-12 col-lg-6">
+                <h5 class="card-title">{{ frisur.style }}</h5>
+                <p class="card-text">{{ frisur.model }}</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Quidem, ratione molestias facilis nobis harum iste expedita.
+                                     Maiores, accusamus veniam? Assumenda totam, iure magnam,
+                                     tempora et blanditiis a ducimus asperiores unde nihil dicta quaerat velit,
+                                     nobis aliquid quas quasi laborum nesciunt.
+                                     Eaque laborum nam atque distinctio error magni,
+                                     nulla, aperiam vel optio sint mollitia,
+                                     cumque aspernatur quidem doloremque aliquid.
+                                     Facere recusandae illo itaque nam nesciunt fugit incidunt nostrum at
+                                     repellat minus dignissimos, dolores quasi inventore magni?</p><br>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quis accusamus laudantium similique
+                                     vitae cupiditate commodi, ratione nisi voluptates molestias ex maiores nesciunt,
+                                     eveniet eligendi rem exercitationem esse? Inventore, et odio. Ipsa error
+                                     porro earum corporis adipisci molestiae odit culpa est cupiditate ipsum,
+                                     cumque officia provident pariatur nihil minus quidem!</p>
+                <a class="btn btn-primary card-link" routerLink="/">Go Back</a>
+                <a class="btn btn-warning card-link" routerLink="/termin">Buch Termin</a>            </div>
+          </div>
+    </div>
   </div>
 </div>
+
+

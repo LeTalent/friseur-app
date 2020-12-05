@@ -1,0 +1,23 @@
+[
+  {
+    "id": "4",
+    "model": "Braids",
+    "style": "Simple Braids",
+    "preis": 40,
+    "avatar": "./assets/images/frisure/Braids_4.jpeg"
+  },
+  {
+    "id": "5",
+    "model": "Braids",
+    "style": "Simple Braids",
+    "preis": 70,
+    "avatar": "./assets/images/frisure/Braids_5.jpeg"
+  },
+  {
+    "id": "6",
+    "model": "Braids",
+    "style": "Simple Braids",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_6.jpeg"
+  }
+]

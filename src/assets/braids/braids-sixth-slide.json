@@ -1,0 +1,23 @@
+[
+  {
+    "id": "16",
+    "model": "Braids",
+    "style": "Gold Farbig",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_16.jpeg"
+  },
+  {
+    "id": "16-1",
+    "model": "Braids",
+    "style": "Rot Farbig",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_17.jpeg"
+  },
+  {
+    "id": "16-2",
+    "model": "Braids",
+    "style": "Simple Braids",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_18.jpeg"
+  }
+]

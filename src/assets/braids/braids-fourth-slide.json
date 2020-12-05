@@ -1,0 +1,23 @@
+[
+  {
+    "id": "10",
+    "model": "Braids",
+    "style": "Lange Braids",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_10_Lange.jpeg"
+  },
+  {
+    "id": "11",
+    "model": "Braids",
+    "style": "Lange Braids",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_11_Lange.jpeg"
+  },
+  {
+    "id": "12",
+    "model": "Braids",
+    "style": "Open Braids",
+    "preis": 80,
+    "avatar": "./assets/images/frisure/Braids_12_Open.jpeg"
+  }
+]

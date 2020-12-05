@@ -4,17 +4,17 @@
     <mat-icon mat-icon-button fxHide fxShow.xs (click)="sidenav.toggle()">menu</mat-icon>
   </button>
   <span>
-    <h1 routerLink="/">Ornie Friseur</h1>
+    <h1 routerLink="/">Ornie Friseur Salon</h1>
   </span>
   <span class="example-spacer"></span>
   <div fxLayout="row" fxShow fxHide.xs>
-      <a mat-button routerLink="/">Home</a>
-      <a mat-button>Salon</a>
-      <a mat-button>Team</a>
-      <a mat-button>Produkte</a>
-      <a mat-button>Preise</a>
-      <a mat-button>Galerie</a>
-      <a mat-button>Kontakt</a>
+      <button mat-button routerLink="/">Home</button>
+      <button mat-button>Salon</button>
+      <button mat-button>Team</button>
+      <button mat-button>Produkte</button>
+      <button mat-button>Preise</button>
+      <button mat-button routerLink="/termin">Termin</button>
+      <button mat-button>Kontakt</button>
     </div>
   <button mat-icon-button class="example-icon favorite-icon" fxShow.xs fxHide>
     <mat-icon>search</mat-icon>
@@ -24,14 +24,29 @@
 <mat-sidenav-container class="example-container" hasBackdrop="true">
   <mat-sidenav mode="over" #sidenav [(opened)]="opened" [fixedInViewport]="true">
     <mat-list role="list" class="list-width">
-      <div style="height: 150px; background-color:brown; z-index: 4;">
-        <mat-icon mat-icon-button (click)="sidenav.toggle()" class="close-icon">close</mat-icon>
+      <div class="sidenav-div">
+        <mat-icon class="close-icon" mat-icon-button (click)="sidenav.toggle()" class="close-icon">close</mat-icon>
       </div>
-      <mat-list-item role="listitem" class="list-item">Kontakt</mat-list-item>
-      <mat-list-item role="listitem" class="list-item">Second Item</mat-list-item>
-      <mat-list-item role="listitem" class="list-item">Third Item</mat-list-item>
-      <mat-list-item role="listitem" class="list-item">Fourth Item</mat-list-item>
-      <mat-list-item role="listitem" class="list-item">Fifth Item</mat-list-item>
+      <mat-divider></mat-divider>
+      <a mat-list-item role="listitem" class="list-item">
+        <span class="mat-body-1">Kontakt</span>
+      </a>
+      <mat-divider></mat-divider>
+      <a mat-list-item role="listitem" class="list-item">
+        <span class="mat-body-1" routerLink="/termin">Termin</span>
+      </a>
+      <mat-divider></mat-divider>
+      <a mat-list-item role="listitem" class="list-item">
+        <span class="mat-body-1">Produkte</span>
+      </a>
+      <mat-divider></mat-divider>
+      <a mat-list-item role="listitem" class="list-item">
+        <span class="mat-body-1">FAQ</span>
+      </a>
+      <mat-divider></mat-divider>
+      <a mat-list-item role="listitem" class="list-item">
+        <span class="mat-body-1">Hilfe</span>
+      </a>
     </mat-list>
   </mat-sidenav>
   <mat-sidenav-content><br>

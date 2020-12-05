@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
-// import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {DxSchedulerModule, DxTemplateModule} from 'devextreme-angular';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -30,7 +29,6 @@ import { TerminComponent } from './termin/termin.component';
     MaterialModule,
     DxSchedulerModule,
     DxTemplateModule,
-    // platformBrowserDynamic,
     BrowserAnimationsModule,
     MatCarouselModule.forRoot()
 
