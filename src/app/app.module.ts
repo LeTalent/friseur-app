@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 import {DxSchedulerModule, DxTemplateModule} from 'devextreme-angular';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,8 @@ import { FrisurDetailComponent } from './frisur-detail/frisur-detail.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { TerminComponent } from './termin/termin.component';
+import { SearchComponent } from './search/search.component';
+import { ProductComponent } from './product/product.component';
 
 
 @NgModule({
@@ -20,7 +23,9 @@ import { TerminComponent } from './termin/termin.component';
     FrisurListComponent,
     FrisurDetailComponent,
     FooterComponent,
-    TerminComponent
+    TerminComponent,
+    SearchComponent,
+    ProductComponent
   ],
   imports: [
     HttpClientModule,
@@ -30,7 +35,8 @@ import { TerminComponent } from './termin/termin.component';
     DxSchedulerModule,
     DxTemplateModule,
     BrowserAnimationsModule,
-    MatCarouselModule.forRoot()
+    MatCarouselModule.forRoot(),
+    ReactiveFormsModule, FormsModule
 
   ],
   providers: [],

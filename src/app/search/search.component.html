@@ -1,0 +1,33 @@
+
+<form class="form-container" fxShow fxHide.xs
+[formGroup]="searchForm"
+(ngSubmit)="onSearch(article)">
+<mat-form-field class="search-form" appearance="standard">
+<mat-label>search</mat-label>
+<input matInput
+     placeholder="search a product"
+     type="text"
+     formControlName="searchTerm"
+     [matAutocomplete]="auto">
+<mat-autocomplete #auto="matAutocomplete">
+<mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+  {{option}}
+</mat-option>
+</mat-autocomplete>
+</mat-form-field>
+<button button="submit" mat-raised-button color="primary">Search</button>
+</form>
+
+<div class="container"
+       class="container container1"
+       fxLayout="row wrap"
+       fxLayoutAlign="space-around">
+    <div class="card card-div" *ngFor=" let p of products">
+      <img [src]="p.image" class="card-img-top image-card" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{p.category}}</h5>
+        <p class="card-text">{{p.name}}</p>
+        <button [routerLink]="['/frisur-details', p.id]" class="btn btn-primary">See Details</button>
+      </div>
+    </div>
+  </div>

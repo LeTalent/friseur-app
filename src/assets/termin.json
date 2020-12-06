@@ -1,59 +1,60 @@
 [
   {
-      "text": "Familiezeit",
-      "startDate": "2020, 11, 29, 9:30",
-      "endDate": "2020, 11, 29, 18:30",
+      "text": "Familienzeit",
+      "startDate": "2020, 12, 6, 8:30",
+      "endDate": "2020, 12, 6, 22:30",
       "disabled":true
   },
   {
-      "text": "Haare Verlaengerung",
-      "startDate": "2020, 11, 30, 9:30",
-      "endDate": "2020, 11, 30, 11:30"
-  },
-  {
-      "text": "Pause",
-      "startDate": "2020, 12, 1, 10:00",
-      "endDate": "2020, 12, 1, 11:00",
-      "disabled": true
-  },
-  {
-      "text": "Braids",
-      "startDate": "2020, 12, 1, 11:30",
-      "endDate": "2020, 12, 1, 16:30"
-  }, {
-      "text": "Conrows",
-      "startDate": "2020, 12, 0, 10:00",
-      "endDate": "2020, 12, 2, 12:00"
-  }, {
-      "text": "Conrows",
-      "startDate": "2020, 12, 2, 14:00",
-      "endDate": "2020, 12, 2, 16:00"
-  }, {
-      "text": "Braids",
-      "startDate": "2020, 12, 3, 09:30",
-      "endDate": "2020, 12, 3, 18:30"
-  }, {
-      "text": "Braids",
-      "startDate": "2020, 12, 4, 16:00",
-      "endDate": "2020, 12, 4, 18:30"
-  }, {
-      "text": "Braids",
-      "startDate": "2020, 12, 5, 9:30",
-      "endDate": "2020, 12, 5, 11:30"
-  },
-  {
-      "text": "Nicht Verfügbar",
-      "startDate": "2020, 12, 5, 12:30",
-      "endDate": "2020, 12, 5, 14:30",
-      "disabled": true
-  },
-  {
-      "text": "Haare Verlaengerung",
-      "startDate": "2020, 12, 6, 10:30",
-      "endDate": "2020, 12, 6, 12:30"
-  }, {
-      "text": "Haare Verlaengerung",
-      "startDate": "2020, 12, 6, 14:30",
-      "endDate": "2020, 12, 6, 16:30"
-  }
+    "text": "Haare Verlaengerung",
+    "startDate": "2020, 12, 7, 9:30",
+    "endDate": "2020, 12, 7, 12:30"
+},
+{
+    "text": "Haare Verlaengerung",
+    "startDate": "2020, 12, 8, 9:30",
+    "endDate": "2020, 12, 8, 11:30"
+},
+{
+    "text": "Pause",
+    "startDate": "2020, 12, 9, 10:00",
+    "endDate": "2020, 12, 9, 11:00",
+    "disabled": true
+},
+{
+    "text": "Braids",
+    "startDate": "2020, 12, 9, 11:30",
+    "endDate": "2020, 12, 9, 16:30"
+}, {
+    "text": "Conrows",
+    "startDate": "2020, 12, 11, 10:00",
+    "endDate": "2020, 12, 11, 12:00"
+}, {
+    "text": "Conrows",
+    "startDate": "2020, 12, 12, 14:00",
+    "endDate": "2020, 12, 12, 16:00"
+}, {
+    "text": "Braids",
+    "startDate": "2020, 12, 13, 09:30",
+    "endDate": "2020, 12, 13, 18:30"
+}, {
+    "text": "Braids",
+    "startDate": "2020, 12, 14, 16:00",
+    "endDate": "2020, 12, 14, 18:30"
+}, {
+    "text": "Braids",
+    "startDate": "2020, 12, 15, 9:30",
+    "endDate": "2020, 12, 15, 11:30"
+},
+{
+    "text": "Nicht Verfügbar",
+    "startDate": "2020, 12, 15, 12:30",
+    "endDate": "2020, 12, 15, 14:30",
+    "disabled": true
+},
+{
+    "text": "Haare Verlaengerung",
+    "startDate": "2020, 12, 16, 10:30",
+    "endDate": "2020, 12, 16, 12:30"
+}
 ]

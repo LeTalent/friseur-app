@@ -9,12 +9,12 @@
   <span class="example-spacer"></span>
   <div fxLayout="row" fxShow fxHide.xs>
       <button mat-button routerLink="/">Home</button>
-      <button mat-button>Salon</button>
-      <button mat-button>Team</button>
-      <button mat-button>Produkte</button>
-      <button mat-button>Preise</button>
-      <button mat-button routerLink="/termin">Termin</button>
-      <button mat-button>Kontakt</button>
+      <button mat-button routerLinkActive="mat-accent">Salon</button>
+      <button mat-button routerLinkActive="mat-accent">Team</button>
+      <button mat-button routerLinkActive="mat-accent" routerLink="/search-product">Produkte</button>
+      <button mat-button routerLinkActive="mat-accent">Preise</button>
+      <button mat-button routerLinkActive="mat-accent" routerLink="/termin">Termin</button>
+      <button mat-button routerLinkActive="mat-accent">Kontakt</button>
     </div>
   <button mat-icon-button class="example-icon favorite-icon" fxShow.xs fxHide>
     <mat-icon>search</mat-icon>

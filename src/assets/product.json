@@ -1,0 +1,50 @@
+     [
+       {
+       "id": "43",
+       "category": "Perücke",
+       "name": "name-1",
+       "description": "description-1",
+       "preis": 30,
+       "image": "./assets/images/peruque/peruque_1.jpg"
+      },
+      {
+        "id": "44",
+        "category": "Perücke",
+        "name": "name-2",
+        "description": "description-2",
+        "preis": 30,
+        "image": "./assets/images/peruque/peruque_2.jpg"
+       },
+       {
+        "id": "45",
+        "category": "Perücke",
+        "name": "name-3",
+        "description": "description-3",
+        "preis": 30,
+        "image": "./assets/images/peruque/peruque_3.jpg"
+       },
+       {
+        "id": "46",
+        "category": "Perücke",
+        "name": "name-4",
+        "description": "description-4",
+        "preis": 30,
+        "image": "./assets/images/peruque/peruque_4.jpg"
+       },
+       {
+         "id": "47",
+         "category": "Perücke",
+         "name": "name-5",
+         "description": "description-5",
+         "preis": 30,
+         "image": "./assets/images/peruque/peruque_5.jpeg"
+        },
+        {
+         "id": "48",
+         "category": "Perücke",
+         "name": "name-6",
+         "description": "description-6",
+         "preis": 30,
+         "image": "./assets/images/peruque/peruque_6.jpg"
+        }
+     ]

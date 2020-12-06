@@ -2,6 +2,10 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Frisur } from '../models/frisur.model';
 import { FrisurService } from '../services/frisur.service';
 import { Subscription, Observable } from 'rxjs';
+import { FormGroup, FormControl } from '@angular/forms';
+import { map, startWith } from 'rxjs/operators';
+import { Router } from '@angular/router';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-frisur-list',
@@ -29,20 +33,33 @@ export class FrisurListComponent implements OnInit, OnDestroy {
   extantionsSlideOne$: Observable<Frisur[]>;
   extantionsSlideTwo$: Observable<Frisur[]>;
 
+  searchForm: FormGroup;
+  options: string[] = ['Perücke', 'Oel', 'Haare'];
+  filteredOptions: Observable<string[]>;
   frisure: Frisur[] = [];
   subs: Subscription;
   slides = [
-  { 'image': './assets/images/salon-bild.jpg' },
-  { 'image': './assets/images/salon-bild2.jpg' },
-  { 'image': './assets/images/salon-bild3.jpg' },
-  ];
+            { 'image': './assets/images/salon-bild.jpg' },
+            { 'image': './assets/images/salon-bild2.jpg' },
+            { 'image': './assets/images/salon-bild3.jpg' },
+          ];
 
-  constructor(private frisurServ: FrisurService) { }
+  constructor(private frisurServ: FrisurService,
+              private route: Router,
+              private dataServ: DataService) { }
 
   ngOnInit() {
     this.subs = this.frisurServ.getFrisurList()
       .subscribe(
         res => this.frisure = res
+      );
+
+      this.searchFormInitializer();
+
+      this.filteredOptions = this.searchForm.get('searchTerm').valueChanges
+      .pipe(
+        startWith(''),
+        map(value => this._filter(value))
       );
 
       this.braidsSlideOne$ = this.frisurServ.getBraidsFirstSlide();
@@ -63,6 +80,22 @@ export class FrisurListComponent implements OnInit, OnDestroy {
 
       this.extantionsSlideOne$ = this.frisurServ.getExtantionsFirstSlide();
       this.extantionsSlideTwo$ = this.frisurServ.getExtantionsSecondSlide();
+  }
+
+  searchFormInitializer(){
+    this.searchForm = new FormGroup({
+      searchTerm: new FormControl('')
+    })
+  }
+
+  onSearch(){
+    this.route.navigate(['/search-product']);
+    this.dataServ.sendData( this.searchForm.get('searchTerm').value );
+  }
+
+  private _filter(value: string): string[] {
+    const filterValue = value.toLowerCase();
+    return this.options.filter(option => option.toLowerCase().includes(filterValue));
   }
 
   ngOnDestroy(){
